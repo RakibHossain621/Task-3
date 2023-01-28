@@ -1,0 +1,34 @@
+
+@media (max-width:640px){
+    .section-p1 {
+        padding: 20px;
+      }
+      #hero{
+        padding: 20px;
+      }
+      #feature .fe-box{
+        width: 45%;
+      }
+      #Product1 .pro{
+        width: 100%;
+      }
+      #sm-banner .banner-box{
+        width: 100%;
+      }
+      #banner3{
+        padding: 20px;
+      }
+      #banner3 .banner-box{
+        width: 100%;
+      }
+      #newlester .From{
+        width: 100%;
+      }
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
