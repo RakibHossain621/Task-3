@@ -32,3 +32,11 @@
         margin: auto;
     }
 }
+@media (max-width: 768px){
+  #sm-banner .banner-box{
+    width: 100%;
+  }
+  #sm-banner .banner-box2{
+    font-size: 14px;
+  }
+}
