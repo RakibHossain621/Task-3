@@ -64,7 +64,7 @@
             <img
               src="img/products/f3.jpg"
               width="100%"
-              id="small-img"
+              id="smallimg"
               alt="Product Image"
             />
           </div>
@@ -88,9 +88,9 @@
           <option>XXL</option>
           <option>Large</option>
           <option>Small</option>
-        </select>
+        </select> <br>
         <input type="number" value="1" />
-        <button>Add To Cart</button>
+        <button class="normal">Add To Cart</button>
         <h4>Product Detiles</h4>
         <span
           >This premium T-shirt is as close to perfect as can be. It's optimized
@@ -99,6 +99,78 @@
         >
       </div>
     </section>
+    <!-- four product design -->
+    <section id="Product1" class="section-p1">
+      <h2>Featured products</h2>
+      <p>Summer collection new morden design</p>
+      <div class="pro-container">
+          <div class="pro">
+              <img src="img/products/n1.jpg" alt="">
+              <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astronaut T-Shirts</h5>
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$78</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+              <img src="img/products/n2.jpg" alt="">
+              <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astronaut T-Shirts</h5>
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$80</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+              <img src="img/products/n3.jpg" alt="">
+              <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astronaut T-Shirts</h5>
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$90</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+              <img src="img/products/n4.jpg" alt="">
+              <div class="des">
+                  <span>adidas</span>
+                  <h5>Cartoon Astronaut T-Shirts</h5>
+                  <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$75</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+      </div>
+  </section>
+  <!-- four Product disgn end -->
     <!-- newlester design -->
 
     <section id="newlester" class="section-p1 section-m1">
@@ -166,6 +238,25 @@
       </div>
     </footer>
     <!-- Footer design End -->
+    <script>
+      var mainimg = document.getElementById("mainimg");
+      var smallimg = document.querySelectorAll("#small-img");
+      console.log(smallimg);
+
+       smallimg[0].onclick = function() {
+        mainImg.src = smallimg[0].src;
+       }
+       smallimg[1].onclick = function() {
+        mainImg.src = smallimg[1].src;
+       }
+       smallimg[2].onclick = function() {
+        mainImg.src = smallimg[2].src;
+       }
+       smallimg[3].onclick = function() {
+        mainImg.src = smallimg[3].src;
+       }
+    </script>
+
     <script src="rakib.js"></script>
   </body>
 </html>

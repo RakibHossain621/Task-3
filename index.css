@@ -621,3 +621,35 @@ html {
   padding: 4px;
   cursor: pointer;
 }
+#prodetiles .single-pro-detiles{
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetiles .single-pro-detiles h4 {
+  padding: 40px 0 20px 0;
+}
+#prodetiles .single-pro-detiles h2 {
+  font-size: 26px;
+}
+#prodetiles .single-pro-detiles select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetiles .single-pro-detiles input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetiles .single-pro-detiles input:focus{
+  outline: none;
+}
+#prodetiles .single-pro-detiles button{
+  background-color: #088178;
+  color: #fff;
+}
+#prodetiles .single-pro-detiles span{
+  line-height: 25px;
+}
