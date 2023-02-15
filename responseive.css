@@ -31,7 +31,73 @@
         align-items: center;
         margin: auto;
     }
+    #prodetiles {
+      display: flex;
+      flex-direction: column;
+    }
+    #prodetiles .single-pro-image {
+      width: 100%;
+    }
+    #prodetiles .single-pro-detiles {
+      width: 100%;
+    }
+    /* blog page */
+    #blog{
+      padding: 100px 20px 0 20px;
+    }
+    /* blog page end */
+    /* about page */
+    #about-head {
+      flex-direction: column;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
 }
+#about-head div {
+  padding-left: 0px;
+}
+#about-app .video {
+  width: 100%;
+}
+/* about page end */
+/* contact design  */
+#contact-details .details{
+  width: 100%;
+}
+#contact-details .map{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#contact-details{
+  flex-direction: column;
+  
+}
+/* contact design end */
+/* from design  */
+#form-details input,textarea{
+  width: 100%;
+}
+#form-details form{
+  width: 100%;
+}
+/* from design end */
+/* cart design */
+#cart-add {
+ flex-direction: column;
+}
+#coupon{
+  width: 100%;
+}
+#subtotal{
+  width: 100%;
+  padding: 20px;
+}
+}
+
+
+
 @media (max-width: 768px){
   #sm-banner .banner-box{
     width: 100%;

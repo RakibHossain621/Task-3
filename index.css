@@ -653,3 +653,275 @@ html {
 #prodetiles .single-pro-detiles span{
   line-height: 25px;
 }
+/* blog page */
+#page-header.blog-header{
+  background-image: url("img/banner/b19.jpg");
+}
+#blog{
+  padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 40px;
+}
+#blog .image-box{
+  width: 50%;
+  margin-right: 40px;
+}
+#blog img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+#blog .blog-deatiles{
+  width: 50%;
+}
+#blog .blog-deatiles a{
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+  position:relative;
+  transition: 0.3s;
+}
+/* Line design css */
+#blog .blog-deatiles a::after{
+  content: "";
+  width: 50px;
+  height: 1px;
+ background-color: #000;
+ position: absolute;
+ top: 4px;
+ right: -60px;
+
+}
+/* line design end */
+#blog .blog-deatiles a:hover{
+  color: #088178;
+}
+#blog .blog-deatiles a:hover::after{
+ background-color:#088178;
+}
+#blog .blog-box h1{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbc9;
+  z-index: -9;
+}
+/* about page */
+#page-header.about-header{
+  background-image: url(img/about/banner.png);
+}
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+#about-head div{
+  padding-left: 40px;
+}
+#about-app{
+  text-align: center;
+}
+#about-app .video{
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+#about-app .video video{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* contact page */
+#contact-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact-details .details{
+  width: 40%;
+}
+#contact-details.details span,
+#form-details form span{
+  font-size: 12px;
+}
+.title{
+  font-size: 26px;
+  line-height:35px;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+#contact-details .details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+ }
+ #contact-details .flex{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+ 
+ }
+ #contact-details .details .flex i{
+  font-size: 14px;
+  padding-right: 22px;
+ }
+ #contact-details .details .flex p{
+  margin: 0;
+  padding: 14px;
+ }
+ #contact-details .map{
+  width: 55%;
+  height: 400px;
+ }
+ #contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+ }
+ /* contact design end */
+ /* form design */
+ #form-details form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+ #form-details form input,
+ #form-details form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+ }
+ #form-details form button{
+  background-color: #088178;
+  color: #fff;
+ }
+ /* form design end*/
+ /* people design */
+ #form-details .pepole div{
+  padding-bottom: 25px;
+ }
+ #form-details .pepole div img{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+ }
+ #form-details .pepole{
+  display: flex;
+  align-items: center;
+  
+ }
+ /* people design end */
+ /* cart design */
+ /* table desgn */
+ #cart{
+  overflow-x: auto;
+ }
+ #cart table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+ }
+ #cart table img{
+  width: 70px;
+ }
+ #cart table td:nth-child(1){
+  width: 100px;
+  text-align: center;
+ }
+ #cart table td:nth-child(2){
+  width: 150px;
+  text-align: center;
+ }
+ #cart table td:nth-child(3){
+  width: 200px;
+  text-align: center;
+ }
+ #cart table td:nth-child(4),
+ #cart table td:nth-child(5),
+ #cart table td:nth-child(6){
+  width: 150px;
+  text-align: center;
+ }
+ #cart table td:nth-child(5) input{
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+ }
+ #cart table thead{
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+ }
+ #cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 18px 0;
+ }
+ #cart table tbody tr td{
+  padding-top: 15px;
+ }
+ #cart table tbody td{
+  font-size: 13px;
+ }
+ /* cart design 1 */
+ #cart-add {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+ #coupon{
+  width: 50%;
+  margin-bottom: 30px;
+ }
+ #coupon h3,
+ #subtotal h3{
+  padding-bottom: 15px;
+ }
+ #coupon input{
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #e2e9e1;
+
+ }
+ #coupon button,
+ #subtotal button{
+  background-color: #088178;
+  color: #fff;
+  padding: 12px 20px;
+ }
+ #subtotal{
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #e2e9e1;
+  padding: 30px;
+ }
+ #subtotal table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ #subtotal table td{
+  width: 50%;
+  border: 1px solid #e2e9e1;
+  padding: 10px;
+  font-size: 13px;
+ }
+ /* table desgn end */
+ /* cart desgn end */
